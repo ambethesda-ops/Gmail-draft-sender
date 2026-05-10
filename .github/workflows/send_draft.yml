@@ -2,7 +2,7 @@ name: Send One Draft
 
 on:
   schedule:
-    - cron: '0,12,24,36,48 14-18 * * *'
+    - cron: '0,15,30,45 14-17 * * 1-5'
   workflow_dispatch:
 
 jobs:
